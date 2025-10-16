@@ -9,14 +9,23 @@
 ##개요
 
 Pipe Line
+
 Input Dialogue
+
    ↓
+   
 Tokenization (KoBigBird / BERT)
+
    ↓
+   
 Transformer Encoder
+
    ↓
+   
 Pooling + MLP Regression Head
+
    ↓
+   
 Soft Label Regression (MSE / Pearson)
 
 
